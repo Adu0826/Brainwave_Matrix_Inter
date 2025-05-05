@@ -1,0 +1,206 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/** Header */
+
+.header{
+  background-color:rgb(5, 46, 62);
+  color: white;
+  margin-top: 0px;
+  display: flex; 
+ flex-direction: row;
+ justify-content: left;
+ align-items: center;
+ font-size: 20px;
+ position:static;
+ }
+
+
+.h_logo{
+ display: flex; 
+ flex-direction: row;
+ justify-content: left;
+ align-items: center;
+ text-align: center;
+ padding: 20px;
+ 
+
+}
+
+.address{
+  display: flex;
+  justify-content: left;
+  padding: 30px;
+  font-size: 20px;
+ text-align: left;
+ font-weight: bold;
+ position: static;
+ 
+}
+
+
+.font{
+   
+  color: white;
+}
+
+.logo{
+  width: 150px;
+}
+.soicon{
+  padding-left: 10px;
+}
+
+/**   Navbar  **/
+
+.mainnav {
+    background-color: rgb(135, 227, 253);
+    min-height: 8vh;
+    top: 0;
+    left: 0;
+    position: sticky;
+    display: flex;
+    width:1520px;
+}
+.navbar{
+  padding-top: 5px;
+  margin-left: 100px;
+  gap: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding-left: 30px;
+  font-size: 30px;
+  padding-right: 10px;
+
+}
+.bn1{
+  padding: 20px;
+}
+.navbtn
+{
+  text-decoration: none;
+  background-color: aqua;
+  margin: 10px 10px 10px 80px;
+  padding: 10px;
+  padding: 10px 10px 10px 10px;
+
+}
+.navbtn a{
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+}
+
+.navbtn:hover {
+  transform:  translate3d(0px,-2px,-5px);
+  /**box-shadow: 0px 10px 40px 10px #abb8c3;*/
+  box-shadow: 0px 10px 40px 10px rgb(34, 35, 30);
+  transition: 0.3s;
+}
+
+/* footer */
+       
+.footer-main{
+  border-top: 1px solid #b7b7b7;
+  padding: 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+
+}
+.quick-links{
+  width: 24%;
+  text-align: left;
+  
+}
+.quick-links  a{
+  color: white;
+}
+.footer{
+ padding: 50px 8%;
+  background-color: #070720;
+  color: white;
+  
+}
+.footer-text{
+  margin-top: 10px;
+  width: 240px;
+  font-size: 18px;
+}
+
+.quick-links ul li{
+  list-style: none;
+}
+.links{
+  width: 170px;
+  font-size: 25px;
+  border-start-start-radius:40px ;
+  text-align: center;
+}
+
+.quick-links ul{
+  margin-top: 15px;
+}
+.quick-links ul li{
+  font-size: 16px;
+  line-height: 35px;
+  
+}
+.address{
+  margin-top: 15px;
+}
+.contact{
+  margin-top: 10px;
+  line-height: 35px;
+}
+.made{
+  margin-top: 70px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.made i{
+  color: rgb(209, 5, 5);
+}
+.copyright{
+  text-align: center;
+  font-size: 16px;
+  margin: 30px 0 0 0;
+}
+.footer-icon{
+  font-size: 20px;
+
+}
+
+.social-icons i{
+  margin: 15px 10px;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+
+.f_img{
+ height: 40px;
+ margin: 8px;
+}
+
+.linking{
+  color: white;
+  text-align: left;
+}
+
+
+
+
+
+
